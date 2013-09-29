@@ -6,37 +6,140 @@
 		<meta name="description" content="Omega Entertainment">
 		<meta name="author" content="Ron Forbes">
 		<link rel="shortcut icon" href="images/favicon.png">
-		<title>Omega Entertainment</title>
-		<link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		
+        <title>Omega Entertainment</title>
+		
+        <link href="Bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="Style/Main.css" rel="stylesheet">
 	</head>
 	<body>
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="/">Omega Entertainment</a>
-				</div>
-				<div class="navbar-collapse collapse">
-					<ul class="navbar-nav nav">
-                        <li><a href="http://blockparty.omegaentertainment.net">Block Party</a></li>
-						<li><a href="mailto:ron@omegaentertainment.net">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="main">
-				<h1>Omega Entertainment</h1>
-				<p class="lead">We seek to bring people together through the most universally enjoyed entertainment experiences in the world.</p>
-			</div>
-		</div>
+	    <div class="navbar-wrapper">
+            <div class="container">
+                <div class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="/">Omega Entertainment</a>
+                        </div>
+				        <div class="navbar-collapse collapse">
+					        <ul class="navbar-nav nav">
+                                <li><a href="#About">About</a></li>
+                                <li><a href="#BlockParty">Block Party</a></li>
+						        <li><a href="#Contact">Contact</a></li>
+					        </ul>
+				        </div>
+			        </div>
+		        </div>
+            </div>
+		</div>	
+		
+        <div id="carousel" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="Images/OmegaEntertainmentLogo.png" alt="Omega Entertainment" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <p>We seek to bring people together through the most universally enjoyed entertainment experiences in the world.</p>
+                            <p><a class="btn btn-large btn-primary" href="#About">Learn more about us</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Images/BlockPartyLogo.png" alt="Block Party" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <p>Block Party is a fast-paced, frantic puzzle game that blends approachable gameplay with hard-to-master tactics and strategy.</p>
+                            <p><a class="btn btn-large btn-primary" href="#BlockParty">See more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+        
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="img-circle" src="Images/WindowsStoreIcon.png" data-src="holder.js/140x140" alt="Windows Store Icon" />
+                    <h2>Block Party is on the Windows Store</h2>
+                    <p>You can get Block Party for FREE from the Windows Store.</p>
+                    <p><a class="btn btn-default" href="http://apps.microsoft.com/windows/app/block-party/76ea54ae-8096-4785-bc5d-f1b877b0e662"><img src="Images/WindowsStoreBadge.png" /></a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-circle" src="Images/WebIcon.jpg" alt="Web Icon" />
+                    <h2>Block Party is coming to the web</h2>
+                    <p>Soon, you'll be able to enjoy Block Party anywhere, anytime on the web.</p>
+                    <p><a class="btn btn-default" href="http://blockparty.omegaentertainment.net">Check it out</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-circle" src="Images/BlockIcon.png" alt="Block Icon" />
+                    <h2>Block Party is growing</h2>
+                    <p>Leaderboards, player stats, puzzle mode, global competition. Stay tuned for more ways to enjoy the party!</p>
+                    <p><a class="btn btn-default" href="https://trello.com/b/W7i0KxDN/block-party">See what's coming</a></p>
+                </div>
+            </div>
+
+            <a id="About"><hr class="featurette-divider" /></a>
+            
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Omega Entertainment <span class="text-muted">is on a mission.</span></h2>
+                    <p class="lead">We're on a mission to bring the world together through the most universally enjoyed entertainment experiences. We were established in 2013 based on the premise that the most memorable games are the ones enjoyed with others. Our debut title, <i>Block Party</i>, is being enjoyed by hundreds of people around the world.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive" src="Images/OmegaEntertainmentFeaturette.png" alt="Omega Entertainment" />
+                </div>
+            </div>
+
+            <a id="BlockParty"><hr class="featurette-divider" /></a>
+
+            <div class="row featurette">
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive" src="Images/BlockPartyFeaturette.png" alt="Block Party" />
+                </div>
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Block Party <span class="text-muted">is our first game.</span></h2>
+                    <p class="lead">Block Party is a fast-paced, frantic puzzle game that blends approachable gameplay with hard-to-master tactics and strategy. An assortment of blocks, each with their own unique design and personality, must be matched to make them pop. Create killer combos by matching larger sets of blocks together. Pull off mighty chains by matching blocks that lead to more matches. But be quick about it; if the blocks reach the top of the board, it's game over!</p>
+                    <p class="lead"><a class="btn btn-default" href="http://apps.microsoft.com/windows/app/block-party/76ea54ae-8096-4785-bc5d-f1b877b0e662">Download Block Party for FREE from the Windows Store.</a></p>
+                </div>
+            </div>
+
+            <a id="Contact"><hr class="featurette-divider" /></a>
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">We'd love to hear from you <span class="text-muted">(you're why we exist).</span></h2>
+                    <p class="lead">Like us on <a href="https://www.facebook.com/pages/Omega-Entertainment/453812021399425">Facebook</a></p>
+                    <p class="lead">Follow us on <a href="https://twitter.com/OmegaLLC">Twitter</a></p>
+                    <p class="lead">Follow us on <a href="http://www.linkedin.com/company/omega-entertainment?trk=company_logo">LinkedIn</a></p>
+                    <p class="lead">Check out what we're up to on <a href="https://trello.com/omegaentertainment">Trello</a></p>
+                    <p class="lead">Or just <a href="mailto:ron@omegaentertainment.net">email us</a></p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive" src="Images/ContactUsFeaturette.jpg" alt="Contact Us" />
+                </div>
+            </div>
+
+            <hr class="featurette-divider" />
+
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2013 Omega Entertainment, LLC</p>
+            </footer>
+        </div>
+
 		<script src="//code.jquery.com/jquery.js"></script>
-		<script src="Bootstrap/js/bootstrap.min.js"></script>
+		<script src="Bootstrap/dist/js/bootstrap.min.js"></script>
 		<script>
 		    (function (i, s, o, g, r, a, m) {
 		        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
